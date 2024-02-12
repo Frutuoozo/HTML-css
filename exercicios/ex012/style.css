@@ -1,0 +1,41 @@
+@charset "UFT-8";
+
+/* A seguencia correta de se usar o font de uma unica linha:
+    font-style: italic;
+    font-weight: 100;
+    font-size: 3em;
+    font-family: arial;
+    */
+
+    /* COMO USAR O ID E CLASSE
+    SELETORES PERSONALIZADOS:
+    #  = ID
+    .  = CLASSE
+    :  = PSEUDO CLASSE
+    :: = PSEUDO ELEMENT
+    >  = FILHO 
+    */
+    
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#stp{ 
+        text-align: center;
+    }
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+div{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}

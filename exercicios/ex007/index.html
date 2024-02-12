@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu setimo site</title>
+</head>
+<body>
+    <h1>Lidando com tamanho de IMG</h1>
+    <node>
+        <p>Testando diferentes tamanhos de imagens para diferentes tipos de tela, usando a tag (picture) tamanho P com 300px, tamanha M com700px, tamanho G com 1000px. Veja abaixo o simpson</p>
+    </node>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width:1050px)"srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="A maiores img G">
+    </picture>
+    <audio src="audio/the-simpson.mp3" controls loop>
+    </audio>
+    <br>
+    <br> <video src="video/meuvid.mp4" width="500px" controls></video>
+</body>
+</html>
