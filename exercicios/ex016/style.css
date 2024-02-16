@@ -1,11 +1,54 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&family=Noto+Sans+Buhid&family=Protest+Guerrilla&display=swap');
+
+
 body{
-    height: 98vh;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+    height: 100vh;
     background-image: url(imgs01/wallpaper005.jpg);
-    background-position: rigth center
+    background-position: rigth center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main{
+    width: 500px;
+    height: 700px;
+    margin: auto;
 }
 
 h1{
+    font-size: 3em;
+    margin-top: 100px;
+    font-family:Protest Guerrilla;
+    text-align: center;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
+}
 
+h3{
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
+}
+
+p{
+    padding: 10px;
+
+
+line-height: 1.5em;
+    text-align: justify;
+}
+
+.font-italica{
+    text-decoration: italico;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.479);
 }
