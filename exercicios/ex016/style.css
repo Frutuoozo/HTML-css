@@ -15,29 +15,32 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 main{
     width: 500px;
-    height: 700px;
+    height: auto;
     margin: auto;
+
+   border-radius: 10px solid black;
+    border-radius: 10px;
 }
 
 h1{
     font-size: 3em;
-    margin-top: 100px;
+    padding: 30px;
     font-family:Protest Guerrilla;
     text-align: center;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
 }
 
 h3{
+    padding: 20px;
     font-weight: bold;
     text-align: center;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
 }
 
 p{
-    padding: 10px;
-
-
-line-height: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5em;
     text-align: justify;
 }
 
@@ -45,10 +48,11 @@ line-height: 1.5em;
     text-decoration: italico;
 }
 
-div{
+img{
     width: 100px;
     height: 100px;
-    margin: auto;
-
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.479);
+    margin: auto;
+    ba
 }
+
