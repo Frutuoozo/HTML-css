@@ -4,7 +4,7 @@
 
 
 body{
-font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
     height: 100vh;
     background-image: url(imgs01/wallpaper005.jpg);
@@ -18,23 +18,25 @@ main{
     height: auto;
     margin: auto;
 
-   border-radius: 10px solid black;
+    border: 1px solid black;
     border-radius: 10px;
 }
 
 h1{
-    font-size: 3em;
+    font-size: 5em;
     padding: 30px;
     font-family:Protest Guerrilla;
     text-align: center;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.486);
 }
 
 h3{
-    padding: 20px;
+    font-family: Bebas Neue;
+    padding: 5px;
+    font-size:3em;
     font-weight: bold;
     text-align: center;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
 }
 
 p{
@@ -44,15 +46,10 @@ p{
     text-align: justify;
 }
 
-.font-italica{
-    text-decoration: italico;
-}
-
 img{
     width: 100px;
     height: 100px;
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.479);
     margin: auto;
-    ba
 }
 
