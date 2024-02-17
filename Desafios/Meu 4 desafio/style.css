@@ -1,19 +1,24 @@
  @charset "UTF-8";
 
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Passion+One:wght@400;700;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-
+:root {
+      --fonte01: verdana, Geneva, Tahoma,sans-serif;
+      --fonte03: 'Josefin Sans',sans-serif;
+      --fonte04: 'Passion One',sans-serif;
+}
 
 *{
       margin: 0px;
       padding: 0px;
 }
 
-//
 
 
 html, body{
       background-color: darkgrey;
       min-height: 100vh;
+      font-family: var(--fonte01);
 }
 
 
@@ -27,6 +32,8 @@ header{
 header h1{
       padding-top: 50px;
        font-variant: small-caps;
+       font-family: var(--fonte04);
+       font-size: 10vw;
 }
 
 header p{
@@ -34,7 +41,7 @@ header p{
 }
 /* cabeçario */
 
-//
+
 
 /* link */
 a{
@@ -48,14 +55,16 @@ a:hover {
 }
 /* link */
 
-//
+
 
 /* contudo/poema*/
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 3em;
+    line-height: 2em;
     padding: 30px;
+    font-family: var(--fonte03);
+    font-size: 4vw;
 }
 
 section.normal{
@@ -65,18 +74,19 @@ section.normal{
 
 section.imagem{
     background-color: #2e2e2e;
+    padding: 5px;
     color: white;
 }
 
 section.imagem > p{
-      width: 400px;
-      background-color: black;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.24);
       padding: 20px;
 
 }
 /* contudo/poema*/
 
-//
+
 
 /* rodape */
 footer{
@@ -85,4 +95,5 @@ footer{
         text-align: center;
         padding: 10px;
 }
+
 /* rodape */
