@@ -11,13 +11,15 @@
 *{
       margin: 0px;
       padding: 0px;
+      font-size: 1em;
 }
 
 
 
 html, body{
       background-color: darkgrey;
-      min-height: 100vh;
+      min-height: 90vh;
+      min-width: 90vh;
       font-family: var(--fonte01);
 }
 
@@ -58,14 +60,17 @@ a:hover {
 
 
 /* contudo/poema*/
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding: 30px;
+    padding-left: 20px;
     font-family: var(--fonte03);
-    font-size: 4vw;
+    font-size: 2.5vw;
+      
 }
+
 
 section.normal{
     background-color: white;
@@ -73,17 +78,33 @@ section.normal{
 }
 
 section.imagem{
-    background-color: #2e2e2e;
-    padding: 5px;
-    color: white;
+      height: 400px;
+      background-color: #1f1f1f;
+    color: #ffffff;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.521);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
       display: inline-block;
-      background-color: rgba(0, 0, 0, 0.24);
-      padding: 20px;
-
+      background-color: #1b1b1be3;
+      padding: 10px;
+      border-radius: 10px;
+      text-shadow: 2px 2px 0px black;
 }
+
+section#img01{
+      background-image: url(midia/img/Cordel-P1.jpg);
+      background-position: right bottom;
+}
+
+section#img02{
+      background-image: url(midia/img/Cordel-P2.jpg);
+      background-position: center center;
+      background-size: cover;
+}
+
 /* contudo/poema*/
 
 
@@ -93,7 +114,7 @@ footer{
         background-color: black;
         color: white;
         text-align: center;
-        padding: 10px;
+        padding: 30px;
 }
 
 /* rodape */
