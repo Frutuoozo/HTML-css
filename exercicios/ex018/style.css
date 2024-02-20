@@ -1,0 +1,57 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+caption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+
+}
+
+thead{
+    background-color: darkcyan;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+table{
+    width: 500px;
+    border: 3px solid black;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+tr{
+    margin: 3px;
+}
+
+td{ 
+    padding: 20px;
+    padding-right: 30px;
+    border: 1px solid black;
+}
+
+td.fontc{
+    text-align: center;
+}
+
+td.num{
+    text-align: right;
+}
+
+td#total{
+    background-color: #18a2a77e;
+}
