@@ -20,7 +20,6 @@ caption{
 
 thead{
     background-color: darkcyan;
-    background-color: darkcyan;
     color: white;
     text-align: center;
     font-size: 2em;
@@ -28,10 +27,21 @@ thead{
 }
 
 table{
+    position: relative;
     width: 500px;
     border: 3px solid black;
     margin-top: 10px;
     border-collapse: collapse;
+}
+
+thead tr th{
+    position: sticky;
+    top: 0;
+    background-color:darkcyan;
+}
+
+th{
+    border: 1px solid black;
 }
 
 tr{
@@ -54,4 +64,5 @@ td.num{
 
 td#total{
     background-color: #18a2a77e;
+    text-align: center;
 }
