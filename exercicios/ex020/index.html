@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Vigésimo site</title>
+</head>
+<body>
+    <h1>Meu primeiro formulario</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome" required minlength="4" maxlength="14" placeholder="Teu Nome infeliz" autocomplete="username">
+        </p>
+        <p>
+            <label for="isobre">Sobrenome: </label>
+            <input type="text" name="sobre" id="isobre" minlength="4" maxlength="14" placeholder="Teu Sobrenome paspalho" autocomplete="username">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="8"
+            maxlength="10" placeholder="Sua Senha" autocomplete="current-password">
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+</html>
