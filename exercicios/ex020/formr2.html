@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub site</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preencha o Formulario</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <p>
+                <label for="ifoto">Foto de perfil:</label>
+                <input type="file" name="Foto" id="ifoto">
+            </p>
+
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome"  required placeholder="Nome completo" minlength="10" autocomplete="additional-name">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="ielamil" required placeholder="E-mail" autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Celular:</label>
+                <input type="tel" name="tel" id="itel"
+                required placeholder="Numero de telefone" autocomplete="tel">
+            </p>
+
+            <!-- Esse tipo de formulario é apenas uma opção -->
+            <p>
+                <label for="isex">Sexo:</label>
+                <input type="radio" name="Sexo" id="isexf"> 
+                <label for="isexf">Feminino</label>
+                <input type="radio" name="Sexo" id="isexm"> 
+                <label for="isexm">Masculino</label>
+            </p>
+
+            <!-- Esse tipo de formulario é mais de opção -->
+            
+            <p>
+                <label for="icor">Cor favorita:</label>
+                <input type="checkbox" name="cor" id="icord"> 
+                <label for="isexfd">Branco</label>
+
+                <input type="checkbox" name="cor" id="icorp"> 
+                <label for="icorp">Preto</label>
+
+            </p>
+
+            <p>
+                <label for="inivel">Nivel de Stisfação</label>
+                <input type="range" name="Nivel" id="inivel" min="1" max="5" value="1">
+            </p>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+    </form>
+</body>
+</html>
