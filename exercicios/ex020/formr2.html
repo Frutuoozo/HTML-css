@@ -13,7 +13,7 @@
 </head>
 <body>
     <h1>Preencha o Formulario</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <fieldset>
             <legend>Dados Pessoais</legend>
 
@@ -31,9 +31,32 @@
                 <input type="email" name="email" id="ielamil" required placeholder="E-mail" autocomplete="email">
             </p>
             <p>
-                <label for="itel">Celular:</label>
-                <input type="tel" name="tel" id="itel"
+                <label for="icell">Celular:</label>
+                <input type="cell" name="cell" id="icell"
                 required placeholder="Numero de telefone" autocomplete="tel">
+            </p>
+
+            <p>
+                <label for="iprofiss"></label>Profissão:
+                <input type="text" name="profiss" id="iprofiss" list="ltsprofiss">
+                <datalist>datalist</datalist>
+            </p>
+
+            <p>
+                <label for="iest">Estado:</label>
+                <select name="est" id="iest">
+                    <optgroup label="Mais Procurados">
+                        <option value="PI">Piaui</option>
+                        <option value="CE">Cearar</option>
+                        <option value="PE">Pernanbuco</option>
+                    </optgroup>
+                    <optgroup>
+                        <option value="SP">São Paulo</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </optgroup>
+                </select>
+                
             </p>
 
             <!-- Esse tipo de formulario é apenas uma opção -->
@@ -60,6 +83,11 @@
             <p>
                 <label for="inivel">Nivel de Stisfação</label>
                 <input type="range" name="Nivel" id="inivel" min="1" max="5" value="1">
+            </p>
+
+            <p>
+                <label for="imsg">Duvida?</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
             </p>
         </fieldset>
         <input type="submit" value="Enviar">
