@@ -38,8 +38,7 @@
 
             <p>
                 <label for="iprofiss"></label>Profissão:
-                <input type="text" name="profiss" id="iprofiss" list="ltsprofiss">
-                <datalist>datalist</datalist>
+                <input type="text" name="profiss" id="iprofiss" placeholder="Profissão">
             </p>
 
             <p>
@@ -50,10 +49,14 @@
                         <option value="CE">Cearar</option>
                         <option value="PE">Pernanbuco</option>
                     </optgroup>
-                    <optgroup>
+                    <optgroup label="----------------------">
                         <option value="SP">São Paulo</option>
                         <option value="MA">Maranhão</option>
                         <option value="RJ">Rio de Janeiro</option>
+                        <option value="GO">Goiana</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
                     </optgroup>
                 </select>
                 
@@ -90,6 +93,7 @@
                 <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
             </p>
         </fieldset>
+        <br>
         <input type="submit" value="Enviar">
         <input type="reset" value="Resetar">
     </form>
