@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* Estilo para IMPRESSORA */
+
+*{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+
+article#ultimo::after{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    content: 'Esse artigo foi impressa no site de teste feito por frut.';
+}
