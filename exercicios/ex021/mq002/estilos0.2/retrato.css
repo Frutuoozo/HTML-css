@@ -1,1 +1,8 @@
 @charset "UTF-8";
+
+/* Aparelho em pe */
+
+body{
+    background-image: url(../midia002/cev-portrait.jpg);
+    background-position: center bottom;
+}
