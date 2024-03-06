@@ -12,5 +12,49 @@ verde +claro  #A7DB79
 
 
 *{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #066130d8;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    width: 250px;
+    height: 500px;
+    background-color: #ffffffe7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+}
+
+section#login div#img{
+    display: block;
+    height: 200px;
+    background: #00000000 url(../midia/FTP\ -\ login.jpeg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+section#login div#formulario{
+    display: block;
+    padding: 10px;
 }
