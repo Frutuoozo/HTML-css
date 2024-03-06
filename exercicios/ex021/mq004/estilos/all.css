@@ -16,7 +16,7 @@ header{
     background-color: lightgreen;
 }
 
-head h1{
+header h1{
     padding: 10px;
     text-align: center;
 }
@@ -53,6 +53,10 @@ menu ul li a{
     border-radius: 10px 0px;
     background-color: rgba(85, 107, 47, 0.281);
     border-color: 2px solid rgb(0, 128, 0);
+}
+
+main{
+    width: 768px;
 }
 
 menu ul li a:hover{
