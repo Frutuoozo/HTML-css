@@ -7,6 +7,28 @@
         background-image: url(../midia003/back-print.jpg);
         border-radius: 2px solid black;
     }
+
+    main{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        color: black;
+        text-shadow: none;
+    }
+
+    main::after{
+        font-size: 25px;
+        content:'Site densenvoldido pela Ticia</>';
+    }
+
+
+    img#cell{ display: none;}
+    img#tablet{ display: none;}
+    img#print{ display: block;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
 }
 
 
