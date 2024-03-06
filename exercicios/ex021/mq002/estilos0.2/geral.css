@@ -11,7 +11,7 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: lightgreen;
+    background-color: #233EFF;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -20,10 +20,11 @@ h1{
     padding: 10px;
     color: white;
     font-size: 2.5em;
-    text-shadow: 2px 2px 0px green;
+    text-shadow: 3px 3px 0px darkblue;
 }
 
 p{
     padding: 10px;
+    color: white;
     font-size: 20px;
 }
