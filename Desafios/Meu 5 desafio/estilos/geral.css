@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Paletas de cores:
+
+verde escuro  #204A13
+verde -escuro  #066130
+verde claro  #4D9C34
+verde +claro  #A7DB79
+
+*/
+
+
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
