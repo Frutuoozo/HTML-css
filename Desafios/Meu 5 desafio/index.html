@@ -5,20 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/geral.css">
     <link rel="stylesheet" href="estilos/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Login</title>
 </head>
 <body>
     <main>
         <section id="login">
+            
             <div id="img"> <!--imagem--> </div>
 
             <div id="formulario">
                 <h1>Login</h1>
 
-                <p>Seja Bem-Vindo(a), faça login para acessar o seu perfil</p>
-                
-                <form action="login.php" method="post">
+                <p>Seja Bem-Vindo(a)! 
+                    <br>faça login para acessar o seu perfil.</p>
 
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <i class="material-symbols-outlined">person</i>
+                        <input type="email" name="login" id="ilogin" required maxlength="30" placeholder="E-mail" autocomplete="email" >
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <i  class="material-symbols-outlined">lock</i>
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="10" placeholder="Senha" autocomplete="current-password">
+                        <label for="isenha">senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="recuperar.html" class="botao">Esqueci a senha <i class="material-symbols-outlined">email</i></a>
                 </form>
 
             </div>

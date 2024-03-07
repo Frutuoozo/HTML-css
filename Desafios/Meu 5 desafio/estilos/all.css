@@ -22,13 +22,21 @@ verde +claro  #A7DB79
 
     section#login div#img {
         float: left;
-        width: 40%;
+        width: 33%;
         height: 100%;
     }
 
     section#login div#formulario {
         float: right;
-        width: 60%;
+        width: 67%;
+    }
+
+    div h1{
+        color: #066130;
+        font-size: 3em;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
     }
 }
 
