@@ -29,14 +29,24 @@ verde +claro  #A7DB79
     section#login div#formulario {
         float: right;
         width: 67%;
+        padding: 30px;
+    }
+
+    form div.campo{
+        display: block;
+        margin-bottom: 20px;
     }
 
     div h1{
-        color: #066130;
-        font-size: 3em;
+        font-size: 2.7em;
         text-align: center;
         padding-top: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
+    }
+
+    div p{
+        font-size: 1.3em;
+        padding-bottom: 20px;
     }
 }
 
@@ -58,6 +68,24 @@ verde +claro  #A7DB79
     section#login div#formulario{
         float: right;
         width: 50%;
+        padding: 30px;
+    }
+
+    form div.campo{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    div h1{
+        text-align: center;
+        font-size: 3em;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    div p{
+        font-size: 1.5em;
+        padding-bottom: 20px;
     }
 
 }

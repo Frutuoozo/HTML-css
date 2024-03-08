@@ -91,22 +91,29 @@ div.campo label{
 
 form div.campo i{
     width: 40px;
-    padding: 5px;
-    color: white;
-    background-color: black;
-    font-size: 2em
+    padding: 4px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 2em;
 }
 
 div.campo input{
+    width: calc(100% - 50px);
+    height: 100%;
+    padding: 10px;
     background-color: #b1f39d;
     font-size: 1em;
-    
+    border-radius: 5px;
+    border: none;
+    transform: translateY(-10px);
 }
 
 form input[type=submit]{
     display: block;
     width: 100%;
     height: 40px;
+    margin-top: 10px;
 
     color: white;
     background-color: #4D9C34;
@@ -142,5 +149,7 @@ form a.botao:hover{
 }
 
 form a.botao i{
+    transform: translateY(5px);
+    padding-left: 10px;
     font-size: 1.1em;
 }

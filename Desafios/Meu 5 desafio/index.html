@@ -17,22 +17,26 @@
             <div id="formulario">
                 <h1>Login</h1>
 
-                <p>Seja Bem-Vindo(a)! 
+                <p>Seja Bem-Vindo(a)! <!--quebra de linha-->
                     <br>faça login para acessar o seu perfil.</p>
 
                 <form action="login.php" method="post">
+                    <!--form de e-mail-->
                     <div class="campo">
                         <i class="material-symbols-outlined">person</i>
                         <input type="email" name="login" id="ilogin" required maxlength="30" placeholder="E-mail" autocomplete="email" >
                         <label for="ilogin">Login</label>
                     </div>
+                    <!--form de senha-->
                     <div class="campo">
                         <i  class="material-symbols-outlined">lock</i>
                         <input type="password" name="senha" id="isenha" required minlength="8" maxlength="10" placeholder="Senha" autocomplete="current-password">
                         <label for="isenha">senha</label>
                     </div>
+
+                    <!--Botões de entrar e esqueci senha-->
                     <input type="submit" value="Entrar">
-                    <a href="recuperar.html" class="botao">Esqueci a senha <i class="material-symbols-outlined">email</i></a>
+                    <a href="nv-senha.html" class="botao">Esqueci a senha <i  class="material-symbols-outlined">email</i></a>
                 </form>
 
             </div>
