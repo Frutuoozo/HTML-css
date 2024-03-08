@@ -85,8 +85,22 @@ form div.campo{
 
 }
 
-form label{
+div.campo label{
     display: none;
+}
+
+form div.campo i{
+    width: 40px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    font-size: 2em
+}
+
+div.campo input{
+    background-color: #b1f39d;
+    font-size: 1em;
+    
 }
 
 form input[type=submit]{
